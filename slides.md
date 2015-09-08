@@ -45,16 +45,15 @@ Elements that are generally **outset**
 ===
 ##Flat & "semi-flat" design
 
-===
 ![](https://cdn-images-1.medium.com/max/800/1*YAB8zDDxCmvegvxCu7d8kw.png)
+===
+![](https://cdn-images-2.medium.com/max/800/1*gWvCSNxqNjyYaq4IF31ZhQ.png)
 
 OS X Yosemite— flatty, not flat.
 ===
 The subtle simulation of 3-D in our interfaces seems far too natural to give up entirely.
 
-Author bets "semi-flat UI" in the near future.
-
-Still clean, still simple, but you’ll have some shadows and cues for what to tap/slide/click.
+Semi-flat UI : Still clean, still simple, but you’ll have some shadows and cues for what to tap/slide/click.
 
 ![](https://cdn-images-1.medium.com/max/800/1*gWuSN3QN9dSeVwSP2LZVow.png)
 
@@ -68,7 +67,7 @@ Still clean, still simple, but you’ll have some shadows and cues for what to t
 ===
 ##Rule 2: Colors ? 
 
-Use black and White
+Use Black & White
 ===
 ####Design black and white first
 
@@ -126,19 +125,6 @@ Single Hue shades
 ![](https://cdn-images-1.medium.com/max/800/1*tZRxO2DReDduBqOwgqd_yw.jpeg)
 ![](https://cdn-images-1.medium.com/max/800/1*-rbrbh20EHL_Ue_IDxl_0A.jpeg)
 
-===
-##Toolbox
-
-- [Never Use Black](http://ianstormtaylor.com/design-tip-never-use-black/) 
-Talks about how totally flat grays almost never appear in the real-world, and how saturating your shades of gray– especially your darker shades– adds a visual richness to your designs.
-
-- [Adobe Color CC](https://color.adobe.com/)
-An awesome tool for finding, modifying, and creating color schemes.
-
-- [Dribbble search-by-color](https://dribbble.com/colors/BADA55) 
-If you already have one color decided, come look at what the world’s best designers are doing/matching with that color.
-
-
 
 
 
@@ -155,6 +141,9 @@ Simply identify a key component in your app, then present it as a card.
 
 ![](http://netdna.webdesignerdepot.com/uploads4/gestalt-ux-principles/gestaltens.jpg)
 
+===
+
+![](similarity_grafikart.png)
 
 ===
 
@@ -171,6 +160,10 @@ The principle of symmetry says that it’s perceptually pleasing to divide objec
 The principle of continuity states that we consider objects grouped if they’re aligned within an object.
 
 ![](https://cdn.tutsplus.com/webdesign/uploads/legacy/170_UnityWebDesign/Unity%20in%20Web%20Design/squarespace.jpg)
+
+
+
+
 
 
 
@@ -250,7 +243,11 @@ If the original image isn’t dark enough, you can overlay the whole thing with 
 ===
 Upstart website has a 35% opacity black filter.
 
-![](https://cdn-images-2.medium.com/max/800/1*aGKzy_8di06W8u1kmKcS4Q.png)
+```
+background-color: rgba(52, 73, 94, 0.66);
+```
+
+![](images/kidscoding07.png)
 ===
 Other examples
 
@@ -258,10 +255,7 @@ Other examples
 ===
 Other examples
 
-
 ![](https://cdn-images-2.medium.com/max/800/1*0LUET8aQnpFvVB4yNhQj1Q.png)
-
-
 ===
 ###Method 2: Text-in-a-box
 
@@ -312,13 +306,13 @@ For example, larger but lighter.
 ===
 You can play with 
 
-    Size (bigger or smaller)
-    Color (greater contrast or lesser; bright colors draw the eye)
-    Font weight (bolder or thinner)
-    Capitalization (lowercase, UPPERCASE, and Title Case)
-    Italicization
-    Letter spacing (or— fancy term alert— tracking!)
-    Margins (technically not a property of the text itself, but can be used to draw attention, so it makes the list)
+- Size (bigger or smaller)
+- Color (greater contrast or lesser; bright colors draw the eye)
+- Font weight (bolder or thinner)
+- Capitalization (lowercase, UPPERCASE, and Title Case)
+- Italicization
+- Letter spacing (or— fancy term alert— tracking!)
+Margins (technically not a property of the text itself, but can be used to draw attention, so - it makes the list)
 
 ===
 
@@ -328,9 +322,9 @@ You can play with
 
 Not recommended
 
-    Underline. ONLY for links
-    Text background color
-    Strikethrough
+- Underline. ONLY for links
+- Text background color
+- Strikethrough
 
 ===
 
@@ -362,11 +356,11 @@ This will prevent things from being overwhelming, but allow different elements t
 
 What does that leave you with?
 
-    Text color
-    Background color
-    Shadows => carefully & light !
-    Underlining
-    Slight animations— raising, lowering, etc.
+- Text color
+- Background color
+- Shadows => carefully & light !
+- Underlining
+- Slight animations— raising, lowering, etc.
 
 ===
 One solid option: try turning white elements colored, or turning colored elements white, but darkening the background behind them.
